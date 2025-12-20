@@ -13,7 +13,6 @@ It combines **Google Gemini** for answer generation, **Qdrant** for vector stora
 
 ## Architecture
 
-```mermaid
 flowchart TD
     A[User Uploads PDF] --> B[Text Extraction and Chunking]
     B --> C["SentenceTransformer Embeddings 384-d"]
@@ -109,11 +108,5 @@ Hardware dependency: Performance varies with GPU/CPU availability.
 Generalization: Tested on dataset X; may require fine-tuning for other datasets.
 
 
-This version:
 
-- Fixes Mermaid parsing issues.  
-- Replaces all “mini RAG” mentions with **RAG**.  
-- Is clean, consistent, and ready to copy-paste as a single README.  
-
-If you want, I can also add **screenshots/diagram placeholders** and **a sample query-answer example** to make it even more professional. Do you want me to do that?
 
