@@ -1,8 +1,0 @@
-qdrant-client==1.7.0
-sentence-transformers==2.2.2
-google-generativeai
-streamlit
-python-dotenv
-langchain-community
-langchain-text-splitters
-pymupdf
